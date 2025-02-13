@@ -1,0 +1,99 @@
+Bug (Something is Broken)
+	•	Unexpected behavior that deviates from the intended functionality.
+	•	Needs fixing before proceeding with further development.
+Examples:
+	•	Drag-and-drop feature is not working properly.
+	•	Cards are not updating in real-time.
+	•	Login form crashes when submitting invalid data.
+	•	API response time is too slow.
+Story (New Feature or User Requirement)
+	•	Represents a piece of functionality that delivers value to the user.
+	•	Usually written in the format: “As a user, I want to… so that I can…”
+Examples:
+	•	“As a user, I want to create and manage boards so that I can organize my projects.”
+	•	“As a user, I want to move cards between lists using drag-and-drop so that I can prioritize tasks easily.”
+	•	“As a team manager, I want to assign roles and permissions so that I can control who can edit boards.”
+Task (Technical Implementation or Subtask)
+	•	A work item that contributes to completing a Story or general project work.
+	•	Usually more technical and implementation-focused.
+Examples:
+	•	Set up database schema for boards, lists, and cards.
+	•	Implement WebSockets for real-time updates.
+	•	Create API endpoints for CRUD operations on cards.
+	•	Deploy staging environment on Cloudflare.
+Spike (Research & Exploration)
+	•	When there’s uncertainty or unknowns, a Spike is created to research, prototype, or investigate before committing to a full implementation.
+Examples:
+	•	Research the best drag-and-drop library for React.
+	•	Investigate WebSocket vs. polling for real-time updates.
+	•	Experiment with server-side caching strategies to optimize API response times.
+	•	Explore authentication options (JWT vs. OAuth) for user login.
+
+Here are templates for each Issue Type: Bug, Story, Task, and Spike. These templates follow a structured format for clarity and efficient tracking.
+:ladybug: Bug Template (Something is Broken)
+Title: [BUG] Issue description here
+Description:
+A clear and concise description of the bug.
+Steps to Reproduce:
+	1.	Go to ...
+	2.	Click on ...
+	3.	Observe ...
+Expected Behavior:
+Describe what should happen.
+Actual Behavior:
+Describe what is actually happening.
+Screenshots (if applicable):
+Attach screenshots or logs if helpful.
+Environment:
+	•	Device/OS:
+	•	Browser:
+	•	Version:
+	•	Network Conditions (if relevant):
+Priority: High / Medium / Low
+Status: Open / In Progress / Resolved
+:rocket: Story Template (New Feature Request)
+Title: [STORY] Feature name
+User Story:
+As a [type of user], I want [feature] so that [reason].
+Acceptance Criteria:
+	•	Condition 1 (e.g., “User should be able to create a board by clicking the + button.”)
+	•	Condition 2
+	•	Condition 3
+Mockups (if applicable):
+Attach designs/screenshots.
+Dependencies:
+	•	Requires backend API changes? (Yes/No)
+	•	Any third-party integrations needed?
+Priority: High / Medium / Low
+Status: Open / In Progress / Completed
+:memo: Task Template (Technical Implementation / Subtask)
+Title: [TASK] Task name
+Description:
+A concise description of the work to be done.
+Related Story/Feature:
+Link to the related Story if this is a subtask.
+Technical Details:
+	•	API endpoints to be created
+	•	Database schema changes
+	•	Frontend component updates
+Definition of Done (DoD):
+	•	Code reviewed
+	•	Tests written and passing
+	•	Merged into main branch
+Priority: High / Medium / Low
+Status: Open / In Progress / Completed
+:mag: Spike Template (Research & Exploration)
+Title: [SPIKE] Research topic name
+Objective:
+What are we trying to explore or understand?
+Key Questions to Answer:
+	1.	Question 1 (e.g., “Which drag-and-drop library is best for our use case?”)
+	2.	Question 2
+Approach:
+	•	Research and compare solutions
+	•	Create a small prototype if needed
+	•	Gather insights and document findings
+Expected Outcome:
+	•	A decision or recommendation
+	•	Findings documented for the team
+Priority: High / Medium / Low
