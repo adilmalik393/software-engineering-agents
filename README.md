@@ -13,7 +13,7 @@ This project provides an API service that automatically generates JIRA issues us
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/adilmalik393/software-engineering-agents
 cd jira-issue-generator
 ```
 
